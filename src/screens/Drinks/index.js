@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {fetchData} from './action';
 import {FlatList, ActivityIndicator, View, Text } from 'react-native';
-import Card from '../../components/Card/component';
+import Card from '../../components/card/index';
 import {Styles} from './styles'
 
 class Drinks extends React.Component {
